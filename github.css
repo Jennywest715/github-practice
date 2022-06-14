@@ -7,12 +7,14 @@
     float: left;
     width: 25%;
     padding: 10px;
+    height: 300px;
 }
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
+    float: left;
   }
   .column1{
       background-color: aqua;
