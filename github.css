@@ -1,24 +1,32 @@
 * {
     box-sizing: border-box;
   }
-
-  /* Create two equal columns that floats next to each other */
+h1{
+    text-align: center;
+    background-color: #378080;
+    height: 75px;
+    margin: 0;
+}
+  /* Create equal columns that float next to each other */
 .column {
     float: left;
     width: 25%;
     padding: 10px;
     height: 300px;
 }
-/* Clear floats after the columns */
+/* "Clear" so nothing is hidden in the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    float: left;
-  }
+    clear:both;
+}
   .column1{
-      background-color: aqua;
+      background-color: #837E79;
   }
   .column2{
-      background-color: aquamarine;
+      background-color: #4D9E9A;
+  }
+  .column3{
+    background-color: #17BEBB;
+  }
+  .column4{
+    background-color: #237373;
   }
